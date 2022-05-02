@@ -1,4 +1,4 @@
-[PT]('https://github.com/uadson/django-realtime-project/blob/main/README_PT.md')[EN]('https://github.com/uadson/django-realtime-project/blob/main/README_EN.md')
+[PT](https://github.com/uadson/django-realtime-project/blob/main/README_PT.md) | [EN](https://github.com/uadson/django-realtime-project/blob/main/README_EN.md)
 
 ## Boas Vindas
 
