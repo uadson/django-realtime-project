@@ -1,4 +1,4 @@
-[PT](https://github.com/uadson/django-realtime-project/blob/main/README_PT.md) | [EN](https://github.com/uadson/django-realtime-project/blob/main/README_EN.md)
+[PT](https://github.com/uadson/django-realtime-project/blob/main/README.md) | [EN](https://github.com/uadson/django-realtime-project/blob/main/README_EN.md)
 
 ## Boas Vindas
 
@@ -26,7 +26,8 @@ diferentes em diferentes locais de forma instantânea.
 
 ##### Instalando o pipenv:
 
-    ```pip install pipenv
+    ```bash
+        pip install pipenv
     ```
     Para instalar os pacotes e dependêcia do projeto:
     
@@ -36,17 +37,20 @@ diferentes em diferentes locais de forma instantânea.
     A qualquer momento você pode atualizar os pacotes/dependências digitando o 
     comando:
 
-    ```pipenv update
+    ```bash
+        pipenv update
     ```
 
     Para ativar o ambiente virtual digite o comando:
 
-    ```pipenv shell
+    ```bash
+        pipenv shell
     ```
 
     e digitar os comandos de gerenciamento e execução do servidor no Django ou:
 
-    ```pipenv run python manage.py runserver
+    ```bash
+        pipenv run python manage.py runserver
     ```
     para executar o servidor local por exemplo.
 
@@ -54,24 +58,28 @@ diferentes em diferentes locais de forma instantânea.
 
     Criando um ambiente virtual:
     
-    ```python -m venv .venv
+    ```bash
+        python -m venv .venv
     ```
 
     Ativando o ambiente virtual:
 
     Linux:
 
-    ```source .venv/bin/activate
+    ```bash
+        source .venv/bin/activate
     ```
 
     Windows:
 
-    ```.venv/Scripts activate
+    ```bash
+        .venv/Scripts activate
     ```
 
     Instalando os pacotes (com o ambiente virtual ativado):
 
-    ```pip install -r requirements.txt
+    ```bash
+        pip install -r requirements.txt
     ```
 
 #### Projeto:
