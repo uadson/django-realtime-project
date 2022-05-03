@@ -25,54 +25,54 @@ different in different locations instantly.
     The package/dependency manager used is Pipenv.
 
 ##### Installing pipenv:
-
-    ```pip install pipenv
-    ```
-    To install the packages and project dependencies:
     
-    ```pipenv install
-    ```
+    pip install pipenv
+    
+To install the packages and project dependencies:
+    
+    pipenv install
+    
 
-    At any time you can update packages/dependencies by typing the
-    command:
+At any time you can update packages/dependencies by typing the
+command:
 
-    ```pipenv update
-    ```
+    pipenv update
+    
 
-    To activate the virtual environment, type the command:
+To activate the virtual environment, type the command:
 
-    ```pipenv shell
-    ```
+    pipenv shell
+    
 
-    and type the server management and execution commands in Django or:
+and type the server management and execution commands in Django or:
 
-    ```pipenv run python manage.py runserver
-    ```
-    to run the local server for example.
+    pipenv run python manage.py runserver
+
+to run the local server for example.
 
 ##### Using the pip package manager:
 
-    Creating a virtual environment:
+Creating a virtual environment:
     
-    ```python -m venv .venv
-    ```
+    python -m venv .venv
+    
 
-    Activating the virtual environment:
+Activating the virtual environment:
 
-    Linux:
+Linux:
 
-    ```source .venv/bin/activate
-    ```
+    source .venv/bin/activate
+    
 
-    Windows:
+Windows:
 
-    ```.venv/Scripts activate
-    ```
+    .venv/Scripts activate
+    
 
-    Installing the packages (with the virtual environment enabled):
+Installing the packages (with the virtual environment enabled):
 
-    ```pip install -r requirements.txt
-    ```
+    pip install -r requirements.txt
+    
 
 #### Project:
 

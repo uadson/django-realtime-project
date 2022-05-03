@@ -26,62 +26,53 @@ diferentes em diferentes locais de forma instantânea.
 
 ##### Instalando o pipenv:
 
-    ```bash
-        pip install pipenv
-    ```
+
+    pip install pipenv
+    
 Para instalar os pacotes e dependêcia do projeto:
     
-    ```bash
-        pipenv install
-    ```
+    pipenv install
+    
 
 A qualquer momento você pode atualizar os pacotes/dependências digitando o 
     comando:
-
-    ```bash
-        pipenv update
-    ```
+    
+    pipenv update
+    
 
 Para ativar o ambiente virtual digite o comando:
 
-    ```bash
-        pipenv shell
-    ```
+    pipenv shell
+    
 
 e digitar os comandos de gerenciamento e execução do servidor no Django ou:
 
-    ```bash
-        pipenv run python manage.py runserver
-    ```
+    pipenv run python manage.py runserver
+    
 para executar o servidor local por exemplo.
 
 ##### Utilizando o gerenciador de pacotes pip:
 
 Criando um ambiente virtual:
     
-    ```bash
-        python -m venv .venv
-    ```
+    python -m venv .venv
 
 Ativando o ambiente virtual:
 
-    Linux:
+Linux:
 
-    ```bash
-        source .venv/bin/activate
-    ```
+    source .venv/bin/activate
+
 
 Windows:
 
-    ```bash
-        .venv/Scripts activate
-    ```
+    .venv/Scripts activate
+    
 
 Instalando os pacotes (com o ambiente virtual ativado):
 
-    ```bash
-        pip install -r requirements.txt
-    ```
+    pip install -r requirements.txt
+
 
 #### Projeto:
 
