@@ -8,7 +8,7 @@ class RoomView(TemplateView):
     """
         Display template room.html
     """
-    template_name = 'room.html'
+    template_name = 'app/room.html'
 
     def get_context_data(self, **kwargs):
         """
