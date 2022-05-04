@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+{% load static %}
+{% load bootstrap4 %}
+{% block content %}
+<div class="container">
+    Which chat room would you like to join?<br>
+    <input type="text" id="room_name" name="room_name" size=100 placeholder="Type room name..."><br>
+
+    {% buttons %}
+    <input type="button" id="button" class="btn btn-primary" value="Enter">
+    {% endbuttons %}
+</div>
+{% block content %}
+
+{% bootstrap_javascript jquery='full' %}
+{% block js %}
+<script src="{% static 'js/index.js %}"></script>
+{% endblock js %}
