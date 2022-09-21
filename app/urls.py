@@ -1,12 +1,11 @@
 from django.urls import path 
-
-from app.views.index import IndexView
-from app.views.room import RoomView
+from app.views import index
+from app.views import room
 
 
 app_name = 'app'
 
 urlpatterns = [
-    path('', IndexView.as_view(), name='index'),
-    path('chat/<str:room_name>/', RoomView.as_view(), name='room'),
+    path('', index, name='index'),
+    path('<str:room_name>/', room, name='room'),
 ]
